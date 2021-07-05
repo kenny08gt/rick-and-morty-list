@@ -2,13 +2,13 @@
   <div class="card shadow rounded-sm m-4">
     <div class="background"></div>
     <div class="content">
-      <img :src="character.image" alt="">
+      <img :src="character.image" >
       <div class="w-full">
         <div class="text-left pt-2 w-32 text-white">
           <span class="text-sm text-white">
             <strong>{{ character.name}}</strong> <br>
             {{ character.species }} <br>
-            <small> {{ character.origin.name }}</small>
+            <small> {{ character.origin ? character.origin.name : '' }}</small>
             </span>
         </div>
       </div>  
@@ -55,10 +55,12 @@
     },
     data() {
       return {
+        image: "./assets/placeholder.jpeg",
+        loaded: false,
       }
     },
     mounted () {
-
+    
     }
   }
 </script>
