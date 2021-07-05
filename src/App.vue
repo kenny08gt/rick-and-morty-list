@@ -1,15 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <character-list />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import CharacterList from './components/CharacterList.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CharacterList
   }
 }
 </script>
@@ -21,6 +19,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+      background-attachment: fixed;
+    background-image: url(./assets/rick-and-morty-breaking-bad-wallpaper-1152x768_36.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 </style>
