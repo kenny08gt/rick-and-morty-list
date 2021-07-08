@@ -1,4 +1,5 @@
 # rickandmorty
+![alt text]("https://github.com/kenny08gt/rick-and-morty-list/blob/master/Screen Shot 2021-07-08 at 14.06.56.png")
 
 ## Project setup
 ```
