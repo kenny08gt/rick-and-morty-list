@@ -1,5 +1,9 @@
 # rickandmorty
-![alt text]("https://github.com/kenny08gt/rick-and-morty-list/blob/master/Screen Shot 2021-07-08 at 14.06.56.png")
+![alt text](sample.png)
+
+Project with vue JS, using https://rickandmortyapi.com/
+
+Just for fun
 
 ## Project setup
 ```
